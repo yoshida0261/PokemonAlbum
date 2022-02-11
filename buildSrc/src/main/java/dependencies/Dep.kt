@@ -15,7 +15,7 @@ object Dep {
         const val constraintLayoutCompose = "androidx.constraintlayout:constraintlayout-compose:1.0.0-alpha08"
 
         object Compose {
-            const val version = "1.0.5"
+            const val version = "1.1.0"
             const val material = "androidx.compose.material:material:$version"
             const val runtime = "androidx.compose.runtime:runtime-livedata:$version"
 
