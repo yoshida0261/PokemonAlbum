@@ -51,6 +51,9 @@ android {
 }
 
 dependencies {
+    implementation project(':model')
+    implementation project(':data')
+
 
     // AndroidX
     implementation Dep.AndroidX.coreKtx
