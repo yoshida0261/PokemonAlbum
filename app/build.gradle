@@ -54,31 +54,11 @@ dependencies {
 
 
     // AndroidX
-    implementation "androidx.core:core-ktx:1.8.0"
-    implementation "androidx.appcompat:appcompat:1.4.0"
-/*
-    implementation "androidx.cardview:cardview:${rootProject.ext.cardviewVersion}"
-    implementation "androidx.constraintlayout:constraintlayout:${rootProject.ext.constraintlayoutVersion}"
-    implementation "androidx.exifinterface:exifinterface:${rootProject.ext.exifinterfaceVersion}"
-    implementation "androidx.gridlayout:gridlayout:${rootProject.ext.gridlayoutVersion}"
-    implementation "androidx.lifecycle:lifecycle-common-java8:${rootProject.ext.lifecycleVersion}"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${rootProject.ext.lifecycleVersion}"
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:${rootProject.ext.lifecycleVersion}"
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:${rootProject.ext.lifecycleVersion}"
-    implementation "androidx.recyclerview:recyclerview:${rootProject.ext.recyclerviewVersion}"
-    implementation "com.google.android.material:material:${rootProject.ext.materialVersion}"
-    implementation "androidx.camera:camera-camera2:${rootProject.ext.cameraVersion}"
-    implementation "androidx.camera:camera-lifecycle:${rootProject.ext.cameraVersion}"
-    implementation "androidx.camera:camera-view:${rootProject.ext.cameraVersion}"
-    implementation "androidx.security:security-crypto:${rootProject.ext.securityCryptoVersion}"
-    implementation "androidx.preference:preference-ktx:${rootProject.ext.preferenceVersion}"
-    implementation("androidx.core:core-splashscreen:${rootProject.ext.splashscreen}")
-    implementation "androidx.fragment:fragment-ktx:${rootProject.ext.fragmentKtxVersion}"
+    implementation libs.androidx.core
+    implementation libs.androidx.appcompat
 
- */
     /* dep
 
-    implementation Dep.AndroidX.activityCompose
     implementation Dep.AndroidX.Navigation.compose
     implementation Dep.AndroidX.Hilt.navigationCompose
 
