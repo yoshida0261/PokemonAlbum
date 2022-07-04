@@ -1,0 +1,24 @@
+[versions]
+app-versionCode = "1"
+app-versionName = "1.0.0"
+
+android-compileSdk = "31"
+android-targetSdk = "31"
+android-minSdk = "21"
+android-gradle = "7.0.0"
+
+kotlin = "1.6.10"
+kotlin-coroutines = "1.5.2"
+
+androidx-core = "1.7.0"
+androidx-lifecycle = "2.4.0"
+
+[libraries]
+android-gradle = { module = "com.android.tools.build:gradle", version.ref = "android-gradle" }
+
+kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin-coroutines" }
+
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-lifecycle-viewModel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-liveData = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "androidx-lifecycle" }
