@@ -18,8 +18,8 @@ fun CatalogScreen(
         cells = GridCells.Fixed(3), content = {
             items(pokemonList.size) {
 
-            }
 
+            }
         }
     )
 }
