@@ -7,7 +7,7 @@ android-targetSdk = "31"
 android-minSdk = "21"
 android-gradle = "7.0.0"
 
-kotlin = "1.6.10"
+kotlin = "1.7.0"
 kotlin-coroutines = "1.5.2"
 
 androidx-core = "1.7.0"
