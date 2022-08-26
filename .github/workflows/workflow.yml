@@ -15,6 +15,6 @@ jobs:
           # You can target a repository in a different organization
           # to the issue
           project-url: https://github.com/orgs/yoshida0261/projects/1
-          github-token: ${{ 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 }}
+          github-token: ${{ github.token }}
           labeled: bug, needs-triage
           label-operator: OR
