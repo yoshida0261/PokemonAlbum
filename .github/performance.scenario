@@ -28,6 +28,12 @@ clean_build {
 
     warm-ups = 10
 }
+build {
+    tasks = [":app:assembleDebug"]
+    gradle-args = ["--offline", "--no-build-cache"]
+    show-build-cache-size = true
+    warm-ups = 4
+}
 ideaModel {
     title = "IDEA model"
     # Fetch the IDEA tooling model
