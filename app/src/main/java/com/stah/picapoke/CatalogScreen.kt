@@ -1,8 +1,8 @@
 package com.stah.picapoke
 
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.lazy.GridCells
-import androidx.compose.foundation.lazy.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.runtime.Composable
 import com.stah.model.pokemon.Pokemon
 import java.lang.reflect.Modifier
@@ -14,7 +14,9 @@ fun CatalogScreen(
     modifier: Modifier = Modifier()
 ) {
 
+    /*
     LazyVerticalGrid(
+
         cells = GridCells.Fixed(3), content = {
             items(pokemonList.size) {
 
@@ -22,4 +24,6 @@ fun CatalogScreen(
             }
         }
     )
+
+     */
 }
