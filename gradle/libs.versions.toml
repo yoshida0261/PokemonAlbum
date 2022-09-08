@@ -13,28 +13,29 @@ kotlin-coroutines = "1.6.3"
 androidx-core = "1.8.0"
 androidx-lifecycle = "2.5.1"
 androidx-appcompat = "1.4.2"
-androidx-navigation-compose = ""
-androidx-hilt-navigation-compose = ""
+
+# androidx-navigation-compose = ""
+# androidx-hilt-navigation-compose = ""
 
 # Google
-google-material = ""
-google-hile-android = ""
+# google-material = ""
+# google-hile-android = ""
 
 # Test
-androidx-test-espresso = ""
-androidx-compose-ui-test = ""
+# androidx-test-espresso = ""
+# androidx-compose-ui-test = ""
 
 # Compose
-androidx-compose-ui-ui = ""
-androidx-compose-ui-tooling = ""
-androidx-compose-material = ""
-androidx-compose-runtime = ""
+# androidx-compose-ui-ui = ""
+# androidx-compose-ui-tooling = ""
+# androidx-compose-material = ""
+# androidx-compose-runtime = ""
 
 #  Retrofit
-square-retrofit-retrofit = ""
+# square-retrofit-retrofit = ""
 
 # Other
-square-timber = ""
+# square-timber = ""
 
 
 [libraries]
