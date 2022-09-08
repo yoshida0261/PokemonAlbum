@@ -4,7 +4,7 @@ app-versionName = "1.0.0"
 
 android-compileSdk = "32"
 android-targetSdk = "32"
-android-minSdk = "21"
+android-minSdk = "28"
 android-gradle = "7.2.1"
 
 kotlin = "1.7.0"
