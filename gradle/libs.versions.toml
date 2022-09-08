@@ -2,8 +2,8 @@
 app-versionCode = "1"
 app-versionName = "1.0.0"
 
-android-compileSdk = "31"
-android-targetSdk = "31"
+android-compileSdk = "32"
+android-targetSdk = "32"
 android-minSdk = "21"
 android-gradle = "7.2.1"
 
