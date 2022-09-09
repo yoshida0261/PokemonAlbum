@@ -17,5 +17,5 @@ jobs:
     steps:
       - uses: rerost/issue-creator@v0.1.17
         with:
-          template-issue: 39
+          template-issue: 41
           discussion: true
