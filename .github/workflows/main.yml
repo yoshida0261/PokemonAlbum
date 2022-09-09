@@ -1,0 +1,21 @@
+name: Create a weekly Refactoring meeting
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+jobs:
+  create-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: rerost/issue-creator@v0.1.17
+        with:
+          template-issue: 39
+          discussion: true
