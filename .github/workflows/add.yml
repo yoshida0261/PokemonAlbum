@@ -10,11 +10,11 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@RELEASE_VERSION
+      - uses: actions/add-to-project@v0.3.0
         with:
           # You can target a repository in a different organization
           # to the issue
-          project-url: https://github.com/orgs/<orgName>/projects/<projectNumber>
+          project-url: https://github.com/projects/1
           github-token: ${{ secrets.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 }}
           labeled: bug, enhancement
           label-operator: OR
