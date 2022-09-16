@@ -1,4 +1,4 @@
-name: Example
+name: project id
 on:
   issues:
     types:
@@ -19,4 +19,4 @@ jobs:
         project-number: ${{ env.PROJECT_NUMBER }}
     - name: Output result
       run: |
-        echo '${{ steps.get-project-id.outputs.project-id }}'
+        echo '${{ steps.secrets.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 }}'
