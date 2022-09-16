@@ -4,7 +4,7 @@ on:
     types:
       - opened
 env:
-  PROJECT_OWNER: monry
+  PROJECT_OWNER: yoshdia0261
   PROJECT_NUMBER: 1
 jobs:
   example:
