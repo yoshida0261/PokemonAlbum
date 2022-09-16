@@ -1,0 +1,22 @@
+name: Example
+on:
+  issues:
+    types:
+      - opened
+env:
+  PROJECT_OWNER: monry
+  PROJECT_NUMBER: 1
+jobs:
+  example:
+    name: Example job
+    runs-on: ubuntu-latest
+    steps:
+    - uses: monry/actions-get-project-id@v1
+      id: get-project-id
+      with:
+        github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        project-owner: ${{ env.PROJECT_OWNER }}
+        project-number: ${{ env.PROJECT_NUMBER }}
+    - name: Output result
+      run: |
+        echo '${{ steps.get-project-id.outputs.project-id }}'
