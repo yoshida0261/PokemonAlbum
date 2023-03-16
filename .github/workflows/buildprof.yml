@@ -34,7 +34,7 @@ jobs:
         source "$HOME/.sdkman/bin/sdkman-init.sh"
         sdk install gradleprofiler 0.18.0
         gradle-profiler --benchmark --scenario-file .github/performance.scenario build --gradle-user-home $HOME/.gradle
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       name: Archive
       with:
         name: result
